@@ -14,8 +14,13 @@
       rel="stylesheet"
     />
 
-    <!-- Link Tailwind CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Link CDN Tailwind & Plugin DaisyU  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
     <!-- 3. Konfigurasi Tailwind -->
     <script>
@@ -96,24 +101,31 @@
       <!-- Content -->
       <div class="flex-grow px-5 sm:px-20 pt-10 text-white bg-[#808080]">
         <div class="mb-[100px] sm:mb-[20px]">
-          <div class="w-full flex sm:flex-row items-center flex-col h-[200px]">
+          <div
+            class="w-full flex sm:flex-row items-center flex-col h-[200px] my-[100px]"
+          >
             <div class="">
               <button
-                class="w-32 h-32 border-2 border-white rounded-full overflow-hidden"
+                class="w-72 h-72 border-2 border-white rounded-full overflow-hidden"
               >
                 <img
-                  src="/element/Profile.jpeg"
+                  src="/Portofolio/element/Profile.jpeg"
                   alt="Foto Profil"
                   class="w-full h-full object-cover"
                 />
               </button>
             </div>
             <div class="px-8 w-full flex flex-col items-center sm:items-start">
-              <h1 class="text-3xl font-bold">Agus Anwar</h1>
-              <h3 class="mb-4">Front End Developer</h3>
-              <button
+              <h1 class="text-5xl font-bold mb-3">Agus Anwar</h1>
+              <h3 class="mb-6 text-xl">Front End Developer</h3>
+              <!-- <button
                 id="btnGoogle"
                 class="bg-gray-800 w-32 h-8 rounded-md border-2 hover:text-red-400 hover:border-red-400"
+              >
+                Download CV
+              </button> -->
+              <button
+                class="btn text-white bg-gray-800 hover:text-red-400 hover:border-red-400"
               >
                 Download CV
               </button>
@@ -121,15 +133,65 @@
           </div>
         </div>
         <div>
-          <h1 class="text-4xl font-bold mb-2">Hallo, Selamat Datang!</h1>
-          <p>
-            Mahasiswa aktif Universitas Bina Sarana Informatika (BSI) jurusan
-            Sistem Informasi dengan pengalaman 4 tahun membantu usaha keluarga.
-            Memiliki ketertarikan di bidang teknologi informasi dan kemampuan
-            komunikasi interpersonal. Selain itu, saya juga hobi fotografi yang
-            melatih kreativitas dan ketelitian. Saat ini saya mencari peluang
-            kerja atau magang untuk mengembangkan keterampilan dan pengalaman
-            profesional di bidang terkait.
+          <h1 class="text-5xl font-bold mb-2">Hallo, Selamat Datang!</h1>
+
+          <p class="mb-2 text-xl text-justify">
+            Hallo, Perkenalkan nama saya Agus Anwar pangil saja saya Anwar umur
+            23 Tahun asal Jawa Timur tapi stay di Jakarta Barat dan untuk Status
+            saya saat ini adalah Jomblo Hahahaha bercanda guys, untuk sekarang
+            status saya sebagai mahasiswa aktif Semester 7 dari kampus Bina
+            Sarana Informatika (BSI) cabang Slipi Fakultas Teknik & Informatika
+            dengan Prodi Sistem Informasi.
+          </p>
+          <p class="mb-2 text-xl text-justify">
+            Saya mempunyai hobi yaitu Traveling dan bermain game, untuk
+            Traveling saya pernah ke pantai, kota atau Hiking.Untuk bermain game
+            saya suka game mobile dan PC, terkadang saya suka melakukan olahraga
+            seperti Joging di GBK saat malam hari.
+          </p>
+          <p class="mb-2 text-xl text-justify">
+            Selain hobi yg saya sebutkan di atas, saya juga mempunyai minat di
+            bidang IT Developer seperti Jurusan yang saya ambil. Untuk IT
+            developer mungkin bisa di bilang saya masih d ranah FrontEnd, meski
+            belum benar-benar menguasainya tapi saya percaya dengan Skill yang
+            saya miliki.
+          </p>
+          <p class="mb-2 text-xl text-justify">
+            Setelah IT saya juga mempunyai minat di bidang Fotografi. Meski
+            terbilang masih sangat baru dan awam. Jika ada Waktu luang di hari
+            libur, saya suka datang ke acara Cosplayer untuk hunting foto para
+            cosplayer. Saya juga suka foto landscape saat sedan melakukan
+            Hiking, saya juga suka melakukan StreetFotography jika sedang
+            Traveling ke kota-kota. Setiap ada kesempatan untuk hunting foto
+            maka akan saya lakukan demi meningkatkan skill yang saya miliki dan
+            mencoba hal-hal yang baru bagi saya.
+          </p>
+          <p class="mb-2 text-xl text-justify">
+            Untuk Gear saya menggunakan Kamera Fujifilm XT-20 dengan 2 lensa Fix
+            yaitu Viltrox 13mm f/1.4 dan Meike 35mm F/1.7 dan dengan 1 unit
+            Flash Godox TT6600 Universal. Untuk aplikasi editing foto, saya
+            hanya menggunakan Adobe Lightroom. Meski skill Color Grading saya
+            masih belum mendalami tapi saya yakin dengan skill saya, saya bisa
+            menghasilkan warna dan tone yang cocok dengan foto yang saya ambil,
+            supaya bisa menyampaikan cerita yang terkandung dalam foto-foto saya
+            kepada orang-orang.
+          </p>
+          <p class="mb-2 text-xl text-justify">
+            Sekarang, kesibukan saya yaitu magang. saya sedang magang di PT.
+            Infotech Tantami Nusantara yang beralamat di Kebun Jeruk, Jakarta
+            Barat. Saya magang di sini selama 3 bln dan mulai magang di tgl 1
+            September. Di sini saya di tempatkan di divisi IT lebih tepatnya IT
+            Support karena Perusahaan ini bergerak di bidang jaringan. meski
+            tidak sesuai jurusan tetapi saya suka, karena saya bisa belajar hal
+            hal yang baru di sini.
+          </p>
+
+          <p class="mb-2 text-xl text-justify">
+            Di Perusahaan ini, apa saja yg sudah pernah saya lakukan? Saya
+            pernah ikut untuk instalasi HDD di salah satu cabang Hokben, Saya
+            juga pernah datang ke Gedung Cyber Security dan NEX Tier 3 Data
+            Center untuk melakukan patching kabel SFTP dari patch panel ke
+            perangkat L3 Ethernet switch (network switch) kita.
           </p>
         </div>
         <!-- Baris Pengalaman -->
